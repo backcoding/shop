@@ -26,3 +26,6 @@ body,
 .el-pagination{
   margin-top: 15px;
 }
+.el-popper .el-cascader-panel{
+  max-height: 300px!important;
+  }
