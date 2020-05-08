@@ -357,7 +357,7 @@ export default {
       // 如果用户确认删除，这返回值是字符串 confirm
       // 如果用户取消删除，则返回值是字符串 cancel
       if (confirmResult !== 'confirm') {
-        return this.$message.info('您一取消删除')
+        return this.$message.info('您已取消删除')
       }
       const { data: res } = await this.$http.delete(
         `categories/${this.cateID}/attributes/${attr_id}`
